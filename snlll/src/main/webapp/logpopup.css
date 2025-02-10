@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* Styles for the log popup */
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    z-index: 1000;
+    width: 400px;
+    height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.popup-close-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.popup-close-button:hover {
+    background-color: darkred;
+}
